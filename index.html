@@ -15,16 +15,19 @@
         </header>
         <main>
             <form>
-                <input type="text" placeholder="Enter the topic of the french poem" autofocus required />
-                <input type="submit">
+                <input type="text" placeholder="Enter the topic of the french poem" autofocus required
+                    autocomplete="off" class="instructions" />
+                <input type="submit" class="submit-button">
             </form>
-            <div>
-                The poem will go here
+            <div class="poem">
+                La tombe dit á la rose
+                <br />
+                Des pleurs dont l'aube t'arrose
             </div>
         </main>
 
         <footer>
-            This AI project was coded by<a href="https://github.com/EvaMothapo" target="_blank">Eva Mothapo</a> and is
+            This AI project was coded by <a href="https://github.com/EvaMothapo" target="_blank">Eva Mothapo</a> and is
             <a href="https://github.com/EvaMothapo/french-poem-generator" targert="_blank">open-sourced on Github</a>
             and
             is hosted by <a href="https://french-poem-generator-blue.vercel.app/">Vercel</a>
