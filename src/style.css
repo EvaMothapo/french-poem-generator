@@ -1,3 +1,15 @@
 body {
-  background: lightgoldenrodyellow;
+  background: #f8f7ff;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #272044;
+  text-align:center;
 }
